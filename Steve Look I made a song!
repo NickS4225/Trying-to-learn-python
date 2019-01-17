@@ -14,7 +14,7 @@ print(song)
 #repeat_stuff running returns Row * 3, so Row Row Row.
 #lyrics outputs row *3 and "your boat" to the end of function 1
 #song runs function 1 on row*3 and your boat. 
-#does it output 10 times because the default is 10?
+#does it output 10 times because num_repeats is 10?
 #yes.
 # question is - why?
 
