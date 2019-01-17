@@ -1,0 +1,22 @@
+def repeat_stuff (stuff, num_repeats=10):
+  return (stuff*num_repeats)
+
+repeat_stuff("Row ", 3)
+
+lyrics = repeat_stuff("Row ", 3) + "Your Boat. "
+
+song = repeat_stuff(lyrics)
+
+print(song)
+
+
+#function 1 takes X & Y. Y is set to 10 as a default
+#repeat_stuff running returns Row * 3, so Row Row Row.
+#lyrics outputs row *3 and "your boat" to the end of function 1
+#song runs function 1 on row*3 and your boat. 
+#does it output 10 times because the default is 10?
+#yes.
+# question is - why?
+
+
+#outputs - Row Row Row Your Boat. (10 times)
