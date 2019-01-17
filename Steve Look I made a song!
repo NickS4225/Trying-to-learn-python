@@ -17,6 +17,8 @@ print(song)
 #does it output 10 times because num_repeats is 10?
 #yes.
 # question is - why?
+#figured it out! song is being replaced for stuff, and replicated 10 times. Ez Pz.
 
 
 #outputs - Row Row Row Your Boat. (10 times)
+
